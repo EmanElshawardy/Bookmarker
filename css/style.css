@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.btn-s{
+  border-width: 0;
+}
+body{
+  background-color:  #010810;
+}
+.title-style{
+  font-family:Pacifico;
+}
+.icons-style{
+  color: #fd7c13;
+}
+.form-control:focus {
+  border-color: #fd7c13;
+  box-shadow: 0 0 0 0.25rem #fec26055;
+}
+.btn-style{
+  background-color: #fd7c13;
+  color: #fff;
+}
+.btn-style:hover{
+  background-color: #fff;
+  color: #fd7c13;
+}
